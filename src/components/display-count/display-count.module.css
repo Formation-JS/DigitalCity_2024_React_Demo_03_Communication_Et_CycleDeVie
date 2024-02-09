@@ -1,0 +1,19 @@
+.count {
+    font-size: 5rem;
+    font-weight: bold;
+    color: dodgerblue;
+}
+
+.count:hover {
+    cursor: crosshair;
+}
+
+.count::before {
+    content: '{';
+    margin-right: 0.5ch;
+}
+
+.count::after {
+    content: '}';
+    margin-left: 0.5ch;
+}
